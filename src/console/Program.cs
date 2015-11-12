@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Runtime.InteropServices;
+using Microsoft.Extensions.PlatformAbstractions;
 
 namespace console
 {
@@ -17,7 +16,7 @@ namespace console
 
     public static class SQLiteMethods
     {
-        [DllImport("libuv")]
+        [DllImport("sqlite3")]
         public static extern int sqlite3_libversion_number();
     }
 }
