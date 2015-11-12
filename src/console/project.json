@@ -11,7 +11,11 @@
   },
 
   "dependencies": {
-    "libs": { "version": "1.0.0", "target": "package"}
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-*",
+    "libs": {
+      "version": "1.0.0",
+      "target": "package"
+    }
   },
 
   "commands": {
