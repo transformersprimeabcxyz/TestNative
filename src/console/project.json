@@ -5,12 +5,13 @@
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
-
+  "compile": "../*.cs",
   "compilationOptions": {
     "emitEntryPoint": true
   },
 
   "dependencies": {
+    "libs": { "version": "1.0.0", "target": "package"}
   },
 
   "commands": {
