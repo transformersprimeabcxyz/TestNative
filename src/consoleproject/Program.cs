@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using Microsoft.Extensions.PlatformAbstractions;
 
-namespace console
+namespace consoleproject
 {
     public class Program
     {
@@ -34,6 +34,7 @@ namespace console
         [DllImport("nativelib")]
         public static extern int get_number();
     }
+
     public static class NonExistentMethods
     {
         [DllImport("nonexistent")]
